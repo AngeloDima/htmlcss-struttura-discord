@@ -10,6 +10,14 @@
 }
 
 
+
+.Conteiner-principale-header{
+    width: 100vw;
+    height: 70vh;
+    background-color: blueviolet;
+}
+
+
 .Conteiner-menù{
     width: 70vw;
     height: 10vh;
@@ -44,3 +52,32 @@
     flex-basis: 230px;
     background-color: #1e3983;
 }
+
+
+.Conteiner-centrale{
+    width: 75vh;
+    margin: auto;
+    background-color: rgba(255, 0, 0, 0.308);
+    margin-top: 100px;
+}
+
+
+.Conteiner-centrale h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+
+
+.Conteiner-centrale p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.15rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+
