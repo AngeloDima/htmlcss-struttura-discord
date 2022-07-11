@@ -13,31 +13,34 @@
 .Conteiner-menù{
     width: 70vw;
     height: 10vh;
-    background-color: blue;
+    background-color: #red;
     
     margin: auto;
 }
 
 .Logo{
     flex-basis: 230px;
-    background-color: red;
+    background-color: #1e3983;
 }
 
 .Menù{
     flex-grow: 1;
-    background-color: rgb(200, 255, 0);
+    background-color: #3161e0;
     justify-content: center;
+    align-items: center;
 }
 
 
 .Menù a{
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 0px 15px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 
 
 .Bottone{
     flex-basis: 230px;
-    background-color: rgb(0, 255, 21);
+    background-color: #1e3983;
 }
