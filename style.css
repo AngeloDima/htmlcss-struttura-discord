@@ -14,7 +14,7 @@
 .Conteiner-principale-header{
     width: 100vw;
     height: 70vh;
-    background-color: blueviolet;
+    background-color: rgb(76, 0, 255);
 }
 
 /* ----- menu ---- */
@@ -52,6 +52,16 @@
 .Bottone{
     flex-basis: 230px;
     background-color: #1e3983;
+    display: flex;
+    justify-content: center;
+    align-items: no-stretch;
+}
+
+.Bottone input{
+    padding: 10px 20px;
+    align-self: center;
+    border-radius: 25px;
+    border: none;
 }
 /* ----- menu END ---- */
 
@@ -89,7 +99,7 @@
     margin: auto;
     margin-top: 20px;
     justify-content: space-between;
-    background-color: rgba(0, 255, 255, 0.322);
+    background-color: rgba(0, 255, 255, 0.527);
 }
 
 .Bottoni-header-centrale input{
@@ -108,3 +118,6 @@
 
 
 /* -----Conteiner centrale END---- */
+
+
+
