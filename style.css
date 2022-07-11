@@ -23,7 +23,6 @@
 .Conteiner-menù{
     width: 70vw;
     height: 10vh;
-    /* background-color:; */
     margin: auto;
 }
 
@@ -120,6 +119,10 @@
 /* -----Conteiner centrale END---- */
 
 
+
+/* ----Box---- */
+
+
 .Reverse{
     flex-direction: row-reverse;
 }
@@ -132,6 +135,11 @@
     display: flex;
     border: 1px solid black;
 }
+
+
+/* ----Container SX e DX---- */
+
+
 
 .SX{
     flex-grow: 1;  
@@ -147,6 +155,9 @@
 }
 
 
+
+/* ----Container SX e DX  END---- */
+
 .DX-margin-content{
     width: 55%;
     height: 100%;
@@ -156,6 +167,8 @@
     justify-content: center;
     
 }
+
+/* ---Box info--- */
 
 .DX h1{
     margin-bottom: 70px;
@@ -172,10 +185,15 @@
     font-weight: 400;
 }
 
+/* ---Box info END--- */
 
 
 
+/* ----Box END---- */
 
+
+
+/* ---------------------BOX FINALE GRANDE--------- */
 .Conteiner-box-grande{
     width: 100vw;
     height: 90vh;
@@ -185,11 +203,41 @@
     flex-direction: column;
 }
 
-
+/* -----h1 e p ----- */
 .Scritta-container-grande{
-    flex-basis: 12vw;
+    flex-basis: 9vw;
     background-color: red;
+    display: flex;
+
 }
+
+.content-scritta-container-grande{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 65%;
+    margin: auto;
+    background-color: rgb(160, 22, 91);
+}
+
+.content-scritta-container-grande h1{
+    margin-bottom: 30px;
+    font-size: 3.4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.content-scritta-container-grande p{
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
 
 .img-container-grande{
     flex-grow: 1;
@@ -207,3 +255,22 @@
     background-color: #3161e0;
     margin: auto;
 }
+
+
+.content-h3-container-grande{
+    width: 20vw;
+    background-color: rgba(255, 255, 0, 0.534);
+    margin: auto;
+    text-align: center;
+
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+
+/* ---------------------BOX FINALE GRANDE END--------- */
