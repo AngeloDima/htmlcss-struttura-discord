@@ -17,6 +17,7 @@
     background-color: blueviolet;
 }
 
+/* ----- menu ---- */
 
 .Conteiner-menù{
     width: 70vw;
@@ -52,6 +53,9 @@
     flex-basis: 230px;
     background-color: #1e3983;
 }
+/* ----- menu END ---- */
+
+/* -----Conteiner centrale---- */
 
 
 .Conteiner-centrale{
@@ -73,11 +77,34 @@
 .Conteiner-centrale p{
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.15rem;
+    font-size: 1.22rem;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 60px;
+}
+
+/* ----Bottoni centrali--- */
+
+.Bottoni-header-centrale{
+    width: 30vw;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+    background-color: rgba(0, 255, 255, 0.322);
+}
+
+.Bottoni-header-centrale input{
+    padding: 15px 60px;
+    border-radius: 30px;
+    border: none;
+
+    font-size: 0.95rem;
+}
+
+.Bottoni-header-centrale input:last-child{
+    background-color: black;
+    color: white;
 }
 
 
 
-
+/* -----Conteiner centrale END---- */
