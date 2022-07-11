@@ -120,6 +120,10 @@
 /* -----Conteiner centrale END---- */
 
 
+.Reverse{
+    flex-direction: row-reverse;
+}
+
 .Conteiner-box{
     width: 100vw;
     height: 70vh;
@@ -129,8 +133,30 @@
     border: 1px solid black;
 }
 
+.SX{
+    flex-grow: 1;  
+    background-color: #3161e0;
+}
+
+.DX{
+    flex-basis: 600px;
+    background-color: #00217a;
+    color: white;
+    text-align: left;
+    display: flex;
+}
 
 
+.DX-margin-content{
+    width: 55%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.445);
+    
+}
+
+.DX h1{
+    margin-bottom: 70px;
+}
 
 
 
