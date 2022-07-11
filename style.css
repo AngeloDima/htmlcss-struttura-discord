@@ -162,7 +162,7 @@
 
 
 .Scritta-container-grande{
-    flex-basis: 10vw;
+    flex-basis: 12vw;
     background-color: red;
 }
 
@@ -172,7 +172,7 @@
 }
 
 .paragrafo-container-grande{
-    flex-basis: 10vw;
+    flex-basis: 5vw;
     background-color: red;
 }
 
