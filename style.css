@@ -280,7 +280,7 @@
 .Bottone-sotto-paragrafo input{
     padding: 10px 25px;
     border-radius: 25px;
-    background-color: #3161e0;
+    background-color: #8ea1e1;
     border: none;
     font-family: 'Roboto', sans-serif;
 }
@@ -304,7 +304,7 @@ footer{
     /* background-color: rgba(255, 0, 0, 0.507); */
     display: flex;
     margin: 55px auto;
-    border-bottom: 3px solid rgba(0, 35, 189, 0.664);
+    border-bottom: 1px solid #8ea1e1;
 
     justify-content: space-between;
 }
@@ -321,7 +321,7 @@ footer{
 .Elemento-grande h1{
     font-size: 2.3rem;
     font-family: 'Roboto', sans-serif;
-    color: #3161e0;
+    color: #596bd1;
     font-weight: 600;
 }
 
@@ -344,7 +344,30 @@ footer{
     text-decoration: none;
 }
 
-.elementi-piccoli h4:first-child{
-    color: #3161e0;
+.elementi-piccoli a:first-child{
+    color: #8ea1e1;
     font-weight: 600;
+}
+
+
+.Sotto-border-footer{
+    width: 60vw;
+    
+    margin: -2% auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.Sotto-border-footer img{
+    max-width: 10%;
+}
+
+.Sotto-border-footer input{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: #8ea1e1;
+    color: white;
 }
