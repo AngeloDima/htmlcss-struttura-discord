@@ -15,7 +15,9 @@
 .Conteiner-principale-header{
     width: 100vw;
     height: 70vh;
-    background-color: rgb(76, 0, 255);
+    
+    background-image: url(img_discord/jumbo.png);
+    background-size: cover;
 }
 
 /* ----- menu ---- */
@@ -24,16 +26,16 @@
     width: 70vw;
     height: 10vh;
     margin: auto;
+    display: flex;
 }
 
 .Logo{
     flex-basis: 230px;
-    background-color: #1e3983;
+    align-self: center;
 }
 
 .Menù{
     flex-grow: 1;
-    background-color: #3161e0;
     justify-content: center;
     align-items: center;
 }
@@ -50,10 +52,8 @@
 
 .Bottone{
     flex-basis: 230px;
-    background-color: #1e3983;
     display: flex;
-    justify-content: center;
-    align-items: no-stretch;
+    justify-content: flex-start;
 }
 
 .Bottone input{
@@ -70,7 +70,6 @@
 .Conteiner-centrale{
     width: 75vh;
     margin: auto;
-    background-color: rgba(255, 0, 0, 0.308);
     margin-top: 100px;
 }
 
@@ -98,7 +97,6 @@
     margin: auto;
     margin-top: 20px;
     justify-content: space-between;
-    background-color: rgba(0, 255, 255, 0.527);
 }
 
 .Bottoni-header-centrale input{
@@ -129,12 +127,14 @@
 
 .Conteiner-box{
     width: 100vw;
-    height: 60vh;
-    background-color: aquamarine;
-    
+    height: 60vh; 
     display: flex;
-    border: 1px solid black;
 }
+
+.Conteiner-box .Reverse{
+    background-color: #efefef
+}
+
 
 
 /* ----Container SX e DX---- */
@@ -143,13 +143,20 @@
 
 .SX{
     flex-grow: 1;  
-    background-color: #3161e0;
+    display: flex;
+    justify-content: center;
+}
+
+.SX img{
+    max-width: 55%;
+}
+
+.color-grey{
+    background-color: #efefef
 }
 
 .DX{
     flex-basis: 600px;
-    background-color: #00217a;
-    color: white;
     text-align: left;
     display: flex;
 }
@@ -161,7 +168,7 @@
 .DX-margin-content{
     width: 55%;
     height: 100%;
-    background-color: rgba(255, 0, 0, 0.445);
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
