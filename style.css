@@ -338,8 +338,10 @@ footer{
     color: white;
 }
 
-.elementi-piccoli h4{
+.elementi-piccoli a{
     font-weight: 400;
+    color: white;
+    text-decoration: none;
 }
 
 .elementi-piccoli h4:first-child{
