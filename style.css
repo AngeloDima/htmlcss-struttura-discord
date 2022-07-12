@@ -284,7 +284,58 @@
 
 footer{
     width: 100vw;
-    height: 40vh;
+    height: 50vh;
     margin-top: 8%;
     background-color: #00103d;
+    
+}
+
+
+.Conteiner-elementi-footer{
+    width: 65vw;
+    height: 75%;
+    /* background-color: rgba(255, 0, 0, 0.507); */
+    display: flex;
+    margin: 55px auto;
+    border-bottom: 3px solid rgba(0, 35, 189, 0.664);
+
+    justify-content: space-between;
+}
+
+.Elemento-grande{
+    flex-basis: 350px;
+    /* background-color: aquamarine; */
+    gap: 25px;
+    flex-direction: column;
+    display: flex;
+}
+
+
+.Elemento-grande h1{
+    font-size: 2.3rem;
+    font-family: 'Roboto', sans-serif;
+    color: #3161e0;
+    font-weight: 600;
+}
+
+
+
+.elementi-piccoli{
+    flex-basis: 150px;
+    /* background-color: violet; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: white;
+}
+
+.elementi-piccoli h4{
+    font-weight: 400;
+}
+
+.elementi-piccoli h4:first-child{
+    color: #3161e0;
+    font-weight: 600;
 }
