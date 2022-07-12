@@ -245,14 +245,14 @@
 }
 
 .paragrafo-container-grande{
-    flex-basis: 5vw;
+    flex-basis: 2vw;
     background-color: red;
 }
 
 .Bottone-sotto-paragrafo{
-    width: 10vw;
-    height: 5vh;
-    background-color: #3161e0;
+    width: 8vw;
+    height: 4vh;
+    background-color: #ff0080;
     margin: auto;
 }
 
@@ -269,8 +269,22 @@
     text-align: center;
 }
 
-
+.Bottone-sotto-paragrafo input{
+    padding: 10px 25px;
+    border-radius: 25px;
+    background-color: #3161e0;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
 
 
 
 /* ---------------------BOX FINALE GRANDE END--------- */
+
+
+footer{
+    width: 100vw;
+    height: 40vh;
+    margin-top: 8%;
+    background-color: #00103d;
+}
